@@ -1,0 +1,8 @@
+.git
+.gitignore
+.vscode
+target
+hotel-frontend/node_modules
+hotel-frontend/dist
+.env
+.env.*

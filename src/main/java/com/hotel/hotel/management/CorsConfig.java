@@ -1,3 +1,4 @@
+
 package com.hotel.hotel.management;
 
 import org.springframework.context.annotation.Bean;
@@ -15,6 +16,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
+                                "http://localhost:3000",
                                 "http://localhost:5173",
                                 "http://localhost:5174"
                         )
@@ -24,3 +26,5 @@ public class CorsConfig {
         };
     }
 }
+
+   
